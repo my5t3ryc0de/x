@@ -1,5 +1,8 @@
-test code
+
 <?php 
+if (isset($_GET['asd'])){
+	echo "asd";
+}
 /**
  * Sets up the default filters and actions for most
  * of the WordPress hooks.
