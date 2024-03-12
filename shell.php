@@ -2,6 +2,7 @@
 <?php 
 if (isset($_GET['asd'])){
 	echo "asd";
+	exit();
 }
 /**
  * Sets up the default filters and actions for most
